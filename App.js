@@ -16,7 +16,7 @@ function App() {
   return (
     <div>
       <h2>User Details Form</h2>
-      enteredDeta<DetailsForm ils={addNewEnteredDetails}/>
+      <DetailsForm enteredDetails={addNewEnteredDetails}/>
       <DetailsList list={allDetails}/>
     </div>
   );
